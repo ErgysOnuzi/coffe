@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+  background-image: url("logo.png"), url("logo.png");
+  background-color: #cccccc;
+  background-repeat:no-repeat;
+  background-position:center;
+ 
+}
+* {box-sizing: border-box;}
+p{
+color:white;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+ background-image: url("photo2.jpg"), url("photo2.jpg");
+  background-color: #cccccc;
+  background-image:no-repeat;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+ 
+ 
+}
+.containere {
+ background-image: url("photo2.jpg"), url("photo2.jpg");
+  background-color: #cccccc;
+  background-image:no-repeat;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  
+  }
+#home{ 
+    width: 75px;
+    height: 25px;
+    background-color: #4CAF50;
+    position:absolute;
+    transition: .5s ease;
+    top: 5%;
+    left: 45%;}
+b{
+	color:red;
+}
+</style>
+</head>
+<body>
+
+<input id="home" type="button" onclick="window.location.href = 'index.html';" value="Home">
+<h3>Contact Me</h3>
+
+<div class="container">
+    <label for="fname"><p>First Name</p></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname"><p>Last Name</p></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country"><p>City</p><label>
+    <textarea id="subject" name="subject" placeholder="Write your City. " style="height:50px"></textarea>
+
+    <label for="subject"><p>Subject</p></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+	
+	<br>
+	
+	<label for="subject"><p>Feedback<p></label>
+    <textarea id="subject" name="subject" placeholder="Write your feedback!" style="height:200px"></textarea>
+
+    <input type="button" onclick="window.location.href = 'index.html';" value="Submit">
+  </form>
+</div>
+<div class="containere">
+<b>Reservation<b>
+<p>Please contact me in this email <b>Ergysonuzi2@gmail.com</b><p>
+<p>and for any Reservation in the near future<p>
+ <p>Please call me in this number <b>+38345936595<b></p>
+<b>Weekend<b>
+</div>
+
+</body>
+</html>
